@@ -1,0 +1,38 @@
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+.footer, header{
+  background-color: orange;
+}
+
+.footer{
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  left: 0;
+}
+
+.p-menubar .p-menuitem-text {
+  line-height: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.p-menubar .p-menuitem{
+  position: relative;
+}
+
+.p-menubar {
+  display: flex;
+}
